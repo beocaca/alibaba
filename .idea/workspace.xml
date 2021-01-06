@@ -4,6 +4,8 @@
     <list default="true" id="d63c279c-5fe1-4865-a146-1cf8bf80957f" name="Default Changelist" comment="aww">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/common.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +41,15 @@
       <updated>1609292432154</updated>
       <workItem from="1609292435940" duration="32728000" />
       <workItem from="1609376803071" duration="9732000" />
-      <workItem from="1609386756502" duration="20200000" />
+      <workItem from="1609386756502" duration="20229000" />
+      <workItem from="1609562474476" duration="53000" />
+      <workItem from="1609598530636" duration="681000" />
+      <workItem from="1609599262574" duration="22000" />
+      <workItem from="1609599304654" duration="397000" />
+      <workItem from="1609721719194" duration="2075000" />
+      <workItem from="1609723808088" duration="2549000" />
+      <workItem from="1609726370850" duration="60540000" />
+      <workItem from="1609893806138" duration="19273000" />
     </task>
     <task id="LOCAL-00001" summary="aww">
       <created>1609405614735</created>
@@ -48,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609405614735</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="aww">
+      <created>1609410489548</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609410489548</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,6 +81,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aww" />
