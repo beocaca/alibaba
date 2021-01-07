@@ -1,96 +1,62 @@
 window.onload = function (e) {
-  var clsParentBox = 'itshavechange'
-  var countryBox = document.querySelector('.language')
-  console.log(countryBox)
-  /*var element = document.querySelector('.country .translate--input--show')
-  var elementDetailItem = document.querySelector('.country .translate--input--show .detail--item')
-  element.onclick = (e) => {
-    countryBox.classList.toggle('show-menu')
-    setFocusToTextBox()
-    e.stopPropagation()
-  }*/
 
+  var clsParentBox = 'nono'
+  var allInputShow = document.querySelectorAll('.translate--input--show')
 
-  var allElement = document.querySelectorAll('.translate--input--show')
-  allElement.forEach((elm) => {
+  allInputShow.forEach(elm => {
     elm.onclick = (e) => {
       var parentBox = e.target.parentElement.parentElement.parentElement.parentElement.parentElement
       var clsName = parentBox.getAttribute('x-attribute')
-      // x = coutry   languege currency
       parentBox.classList.toggle('show-menu')
-      clsParentBox = '.' + clsName
-      //='.stringClass'
-      setFocusToTextBox(clsParentBox)
+      clsParentBox = '.' + clsName // not var
 
-
-      var allMenuItemBox = document.querySelectorAll(clsParentBox + ' .input--detail' + clsParentBox + '--detail  .detail--item')
-      var elementDetailItem = document.querySelector(clsParentBox + ' .translate--input--show .detail--item')
-      allMenuItemBox.forEach((elm) => {
+      var newInputAll = document.querySelectorAll(clsParentBox + ' .input--detail .detail--item')
+      newInputAll.forEach(elm => {
         elm.onclick = (e) => {
-          var MenuItem = e.target.parentElement.innerHTML
-          elementDetailItem.innerHTML = MenuItem
-          // console.log(e.target.parentElement)
+          var newInput = e.target.parentElement
+          var oldInput = document.querySelector(clsParentBox + ' .translate--input--show .detail--item')
+          oldInput.innerHTML = newInput.innerHTML
+
+
+          var currentCheck1 = document.querySelector(clsParentBox + ' .check1')
+          if (currentCheck1) {
+            currentCheck1.classList.remove('check1')
+          }
+          console.log(currentCheck1)
+
+          elm.classList.add('check1')
+
+
           hideMenu(clsParentBox)
-          console.log(clsParentBox)
           e.stopPropagation()
         }
-
-
       })
 
+      setFocusToTextBox(clsParentBox)
+
+      var allParentBox = document.querySelectorAll('.translate--select')
+      allParentBox.forEach(elm => {
+        var artName = elm.getAttribute('x-attribute')
+        var atrNameCls = '.' + artName
+        if (atrNameCls !== clsParentBox) {
+          hideMenu(atrNameCls)
+        }
+      })
 
       e.stopPropagation()
-
     }
   })
 
-
-  /*allElement.forEach(elm => {
-    elm.onclick = (e) => {
-      var parentBox = e.target.parentNode.parentNode.parentNode.parentNode.parentNode
-      console.log(parentBox, e)
-      parentBox.classList.toggle('show-menu')
-
-      var clsName = parentBox.getAttribute('x')
-      setFocusToTextBox('.' + clsName) // .country
-      //
-      /!* if(parentBox.classList.contains('language')) {
-         setFocusToTextBox('.language')
-       }else if(parentBox.classList.contains('country')) {
-         setFocusToTextBox('.country')
-       }*!/
-
-      e.stopPropagation()
-    }
-
-  })*/
-
   function hideMenu(parent) {
     document.querySelector(parent).classList.remove('show-menu')
-
   }
 
-  function setFocusToTextBox(parent) { // .country .translate--input
-    document.querySelector(parent + " .translate--input").focus();
-    e.stopPropagation()
+  function setFocusToTextBox(parent) {
+    document.querySelector(parent + ' .translate--input').focus()
   }
-
-  var allMenuItemCountry = document.querySelectorAll('.country .input--detail.country--detail  .detail--item')
-
-  /*
-    allMenuItemCountry.forEach(elm => {
-      elm.onclick = function (e) {
-        var htmlItem = e.target.parentElement.innerHTML
-        elementDetailItem.innerHTML = htmlItem
-        hideCountryBox()
-        console.log(htmlItem)
-        e.stopPropagation()
-      }
-    })
-  */
 
   window.addEventListener('click', function (e) {
-    if (document.querySelector(clsParentBox).contains(e.target)) {
+    if (document.querySelector(clsParentBox) === null || document.querySelector(clsParentBox).contains(e.target) == null) {
 
     } else {
       var parentBox = document.querySelector(clsParentBox)
@@ -101,4 +67,3 @@ window.onload = function (e) {
     }
   })
 }
-

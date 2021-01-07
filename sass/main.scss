@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 @import "common";
 @import "header";
-body{
+@import "banner";
+
+body {
   font-family: "Roboto", sans-serif;
   background-color: #F2F3F7;
 }
