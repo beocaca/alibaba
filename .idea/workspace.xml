@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d63c279c-5fe1-4865-a146-1cf8bf80957f" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/sass/bodybox.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +67,8 @@
       <workItem from="1609723808088" duration="2549000" />
       <workItem from="1609726370850" duration="60540000" />
       <workItem from="1609893806138" duration="66616000" />
+      <workItem from="1610012468447" duration="3222000" />
+      <workItem from="1610065808484" duration="18987000" />
     </task>
     <task id="LOCAL-00001" summary="aww">
       <created>1609405614735</created>
