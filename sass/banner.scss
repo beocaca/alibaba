@@ -5,10 +5,14 @@
   padding-top: 20px;
 }
 
+
 .banner--left {
   padding: 0 0 5px 5px;
   width: 280px;
   background-color: white;
+  @media(max-width: 768px) {
+    display: none;
+  }
 
   .banner--market {
     font-weight: 600;
@@ -149,11 +153,17 @@
 .banner--right {
   width: 260px;
   background-color: #fff;
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
 
 .banner--mid {
   flex: 1;
   background-color: #fff;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 
   .banner--mid--img {
     padding: 0 5px;
