@@ -8,15 +8,13 @@ window.onload = function (e) {
       var clsName = parentBox.getAttribute('x-attribute')
       parentBox.classList.toggle('show-menu')
       clsParentBox = '.' + clsName // not var
-
+      e.stopPropagation()
       var newInputAll = document.querySelectorAll(clsParentBox + ' .input--detail .detail--item')
       newInputAll.forEach(elm => {
         elm.onclick = (e) => {
-          console.log(e)
           var newInput = e.target.parentElement
           var oldInput = document.querySelector(clsParentBox + ' .translate--input--show .detail--item')
           oldInput.innerHTML = newInput.innerHTML
-
           var currentCheck1 = document.querySelector(clsParentBox + ' .check1')
           if (currentCheck1) {
             currentCheck1.classList.remove('check1')

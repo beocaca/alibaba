@@ -27,7 +27,7 @@
     padding: 0;
   }
   @media(max-width: 599px) {
-    justify-content: flex-end;
+    justify-content: space-between;
   }
 }
 
@@ -209,6 +209,10 @@
     }
   }
 
+  &.mb-acc {
+    padding: 0;
+  }
+
   &:not(.mb-acc) {
     @media (max-width: 599px) {
       display: none;
@@ -217,14 +221,17 @@
 
   .header__acc {
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 120px;
     position: relative;
 
     .acc--logo {
-      width: 30%;
-      background-color: #fff;
-      display: flex;
-      align-items: center;
+      color: #FF6A00;
+      font-size: 40px;
+      @media (max-width: 768px) {
+        font-size: 25px;
+      }
     }
 
     .acc--sign {
@@ -233,6 +240,9 @@
       color: #4f4f4f;
       flex-direction: column;
       justify-content: center;
+      @media(max-width: 599px) {
+        font-size: 12px;
+      }
 
       & .sign {
         padding: 10px 0 5px 10px;
@@ -586,7 +596,7 @@
     height: 38px;
     width: 180px;
     @media (max-width: 599px) {
-      width: auto;
+      width: 140px;
     }
   }
 }

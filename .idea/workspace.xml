@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d63c279c-5fe1-4865-a146-1cf8bf80957f" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/sass/footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/banner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/bodybox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/bodybox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/common.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +73,9 @@
       <workItem from="1610433382737" duration="24000" />
       <workItem from="1610433483538" duration="54221000" />
       <workItem from="1610559669256" duration="7000" />
-      <workItem from="1610586779724" duration="23622000" />
+      <workItem from="1610586779724" duration="23763000" />
+      <workItem from="1610615822450" duration="2844000" />
+      <workItem from="1610672500647" duration="1810000" />
     </task>
     <task id="LOCAL-00001" summary="aww">
       <created>1609405614735</created>
@@ -115,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610089173597</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit">
+      <created>1610615335768</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610615335768</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
